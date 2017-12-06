@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC25843D1FD802A00032344A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC25843C1FD802A00032344A /* AppDelegate.swift */; };
+		BC25843F1FD802A00032344A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC25843E1FD802A00032344A /* ViewController.swift */; };
+		BC2584421FD802A00032344A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2584401FD802A00032344A /* Main.storyboard */; };
+		BC2584441FD802A00032344A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2584431FD802A00032344A /* Assets.xcassets */; };
+		BC2584471FD802A00032344A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2584451FD802A00032344A /* LaunchScreen.storyboard */; };
+		BC2584521FD802A10032344A /* keyboardwaaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2584511FD802A10032344A /* keyboardwaaliTests.swift */; };
+		BC25845D1FD802A10032344A /* keyboardwaaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC25845C1FD802A10032344A /* keyboardwaaliUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC25844E1FD802A10032344A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2584311FD802A00032344A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2584381FD802A00032344A;
+			remoteInfo = keyboardwaali;
+		};
+		BC2584591FD802A10032344A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2584311FD802A00032344A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2584381FD802A00032344A;
+			remoteInfo = keyboardwaali;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2584391FD802A00032344A /* keyboardwaali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboardwaali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC25843C1FD802A00032344A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC25843E1FD802A00032344A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC2584411FD802A00032344A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC2584431FD802A00032344A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2584461FD802A00032344A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC2584481FD802A00032344A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC25844D1FD802A10032344A /* keyboardwaaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyboardwaaliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2584511FD802A10032344A /* keyboardwaaliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardwaaliTests.swift; sourceTree = "<group>"; };
+		BC2584531FD802A10032344A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2584581FD802A10032344A /* keyboardwaaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyboardwaaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC25845C1FD802A10032344A /* keyboardwaaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardwaaliUITests.swift; sourceTree = "<group>"; };
+		BC25845E1FD802A10032344A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2584361FD802A00032344A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC25844A1FD802A10032344A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2584551FD802A10032344A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2584301FD802A00032344A = {
+			isa = PBXGroup;
+			children = (
+				BC25843B1FD802A00032344A /* keyboardwaali */,
+				BC2584501FD802A10032344A /* keyboardwaaliTests */,
+				BC25845B1FD802A10032344A /* keyboardwaaliUITests */,
+				BC25843A1FD802A00032344A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC25843A1FD802A00032344A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2584391FD802A00032344A /* keyboardwaali.app */,
+				BC25844D1FD802A10032344A /* keyboardwaaliTests.xctest */,
+				BC2584581FD802A10032344A /* keyboardwaaliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC25843B1FD802A00032344A /* keyboardwaali */ = {
+			isa = PBXGroup;
+			children = (
+				BC25843C1FD802A00032344A /* AppDelegate.swift */,
+				BC25843E1FD802A00032344A /* ViewController.swift */,
+				BC2584401FD802A00032344A /* Main.storyboard */,
+				BC2584431FD802A00032344A /* Assets.xcassets */,
+				BC2584451FD802A00032344A /* LaunchScreen.storyboard */,
+				BC2584481FD802A00032344A /* Info.plist */,
+			);
+			path = keyboardwaali;
+			sourceTree = "<group>";
+		};
+		BC2584501FD802A10032344A /* keyboardwaaliTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2584511FD802A10032344A /* keyboardwaaliTests.swift */,
+				BC2584531FD802A10032344A /* Info.plist */,
+			);
+			path = keyboardwaaliTests;
+			sourceTree = "<group>";
+		};
+		BC25845B1FD802A10032344A /* keyboardwaaliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC25845C1FD802A10032344A /* keyboardwaaliUITests.swift */,
+				BC25845E1FD802A10032344A /* Info.plist */,
+			);
+			path = keyboardwaaliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2584381FD802A00032344A /* keyboardwaali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2584611FD802A10032344A /* Build configuration list for PBXNativeTarget "keyboardwaali" */;
+			buildPhases = (
+				BC2584351FD802A00032344A /* Sources */,
+				BC2584361FD802A00032344A /* Frameworks */,
+				BC2584371FD802A00032344A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyboardwaali;
+			productName = keyboardwaali;
+			productReference = BC2584391FD802A00032344A /* keyboardwaali.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC25844C1FD802A10032344A /* keyboardwaaliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2584641FD802A10032344A /* Build configuration list for PBXNativeTarget "keyboardwaaliTests" */;
+			buildPhases = (
+				BC2584491FD802A10032344A /* Sources */,
+				BC25844A1FD802A10032344A /* Frameworks */,
+				BC25844B1FD802A10032344A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC25844F1FD802A10032344A /* PBXTargetDependency */,
+			);
+			name = keyboardwaaliTests;
+			productName = keyboardwaaliTests;
+			productReference = BC25844D1FD802A10032344A /* keyboardwaaliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC2584571FD802A10032344A /* keyboardwaaliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2584671FD802A10032344A /* Build configuration list for PBXNativeTarget "keyboardwaaliUITests" */;
+			buildPhases = (
+				BC2584541FD802A10032344A /* Sources */,
+				BC2584551FD802A10032344A /* Frameworks */,
+				BC2584561FD802A10032344A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC25845A1FD802A10032344A /* PBXTargetDependency */,
+			);
+			name = keyboardwaaliUITests;
+			productName = keyboardwaaliUITests;
+			productReference = BC2584581FD802A10032344A /* keyboardwaaliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2584311FD802A00032344A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sanuj Bhatia";
+				TargetAttributes = {
+					BC2584381FD802A00032344A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BC25844C1FD802A10032344A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC2584381FD802A00032344A;
+					};
+					BC2584571FD802A10032344A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC2584381FD802A00032344A;
+					};
+				};
+			};
+			buildConfigurationList = BC2584341FD802A00032344A /* Build configuration list for PBXProject "keyboardwaali" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2584301FD802A00032344A;
+			productRefGroup = BC25843A1FD802A00032344A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2584381FD802A00032344A /* keyboardwaali */,
+				BC25844C1FD802A10032344A /* keyboardwaaliTests */,
+				BC2584571FD802A10032344A /* keyboardwaaliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2584371FD802A00032344A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2584471FD802A00032344A /* LaunchScreen.storyboard in Resources */,
+				BC2584441FD802A00032344A /* Assets.xcassets in Resources */,
+				BC2584421FD802A00032344A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC25844B1FD802A10032344A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2584561FD802A10032344A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2584351FD802A00032344A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC25843F1FD802A00032344A /* ViewController.swift in Sources */,
+				BC25843D1FD802A00032344A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2584491FD802A10032344A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2584521FD802A10032344A /* keyboardwaaliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2584541FD802A10032344A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC25845D1FD802A10032344A /* keyboardwaaliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC25844F1FD802A10032344A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2584381FD802A00032344A /* keyboardwaali */;
+			targetProxy = BC25844E1FD802A10032344A /* PBXContainerItemProxy */;
+		};
+		BC25845A1FD802A10032344A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2584381FD802A00032344A /* keyboardwaali */;
+			targetProxy = BC2584591FD802A10032344A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC2584401FD802A00032344A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2584411FD802A00032344A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC2584451FD802A00032344A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2584461FD802A00032344A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC25845F1FD802A10032344A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC2584601FD802A10032344A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2584621FD802A10032344A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L84EAZA4W2;
+				INFOPLIST_FILE = keyboardwaali/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanujbhatia.keyboardwaali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC2584631FD802A10032344A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L84EAZA4W2;
+				INFOPLIST_FILE = keyboardwaali/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanujbhatia.keyboardwaali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC2584651FD802A10032344A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L84EAZA4W2;
+				INFOPLIST_FILE = keyboardwaaliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanujbhatia.keyboardwaaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keyboardwaali.app/keyboardwaali";
+			};
+			name = Debug;
+		};
+		BC2584661FD802A10032344A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L84EAZA4W2;
+				INFOPLIST_FILE = keyboardwaaliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanujbhatia.keyboardwaaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keyboardwaali.app/keyboardwaali";
+			};
+			name = Release;
+		};
+		BC2584681FD802A10032344A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L84EAZA4W2;
+				INFOPLIST_FILE = keyboardwaaliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanujbhatia.keyboardwaaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keyboardwaali;
+			};
+			name = Debug;
+		};
+		BC2584691FD802A10032344A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L84EAZA4W2;
+				INFOPLIST_FILE = keyboardwaaliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanujbhatia.keyboardwaaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keyboardwaali;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2584341FD802A00032344A /* Build configuration list for PBXProject "keyboardwaali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC25845F1FD802A10032344A /* Debug */,
+				BC2584601FD802A10032344A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2584611FD802A10032344A /* Build configuration list for PBXNativeTarget "keyboardwaali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2584621FD802A10032344A /* Debug */,
+				BC2584631FD802A10032344A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2584641FD802A10032344A /* Build configuration list for PBXNativeTarget "keyboardwaaliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2584651FD802A10032344A /* Debug */,
+				BC2584661FD802A10032344A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2584671FD802A10032344A /* Build configuration list for PBXNativeTarget "keyboardwaaliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2584681FD802A10032344A /* Debug */,
+				BC2584691FD802A10032344A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2584311FD802A00032344A /* Project object */;
+}
